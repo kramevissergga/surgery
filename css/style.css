@@ -1123,6 +1123,9 @@ body {
 .contacts__policy:not(:last-child) {
   margin-bottom: 1.25rem
 }
+.contacts__button {
+  width: 100%
+}
 .contacts__footer {
   position: relative;
   z-index: 2;
