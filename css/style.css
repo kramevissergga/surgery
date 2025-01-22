@@ -399,6 +399,8 @@ body {
   width: 3.5rem!important;
   height: 3.5rem!important;
   transition: all .3s;
+  -webkit-transform: translateY(calc(-50% - 3.625rem))!important;
+  transform: translateY(calc(-50% - 3.625rem))!important;
   font-size: 1.4375rem!important
 }
 .splide__arrow svg {
@@ -2146,6 +2148,10 @@ body {
   .button .pc-only {
     display: none
   }
+  .splide__arrow {
+    -webkit-transform: translateY(calc(-50% - 2.9375rem))!important;
+    transform: translateY(calc(-50% - 2.9375rem))!important
+  }
   .splide__pagination {
     margin-top: 2.25rem!important
   }
@@ -2295,6 +2301,9 @@ body {
   .tabs-services__navigation {
     justify-content: space-between;
     gap: .625rem
+  }
+  .item-services__title {
+    font-size: 1.875rem
   }
 }
 @media (min-width:24.375em)and (max-width:112.5em) {
